@@ -45,21 +45,22 @@ electronMass = 9.11*10**-31
 # q = force/ef
 # electrons = q/electronCharge
 # print(electrons)
-plate = 3.5*10**3
-length = .04
-apart = .02
-velocity = 6.5*10**6 * math.sin(math.pi/4)
-accel = plate*electronCharge/electronMass
-coeffx = [velocity, -length]
-coeffy = [-.5*accel, velocity, -apart]
-y = (numpy.roots(coeffy))
-x = (numpy.roots(coeffx))
-print(x > y)
-print(y)
-print(x)
-print(y[0])
-print(y*velocity)
-print(velocity*x - .5*accel*(x**2))
+
+# plate = 3.5*10**3
+# length = .04
+# apart = .02
+# velocity = 6.5*10**6 * math.sin(math.pi/4)
+# accel = plate*electronCharge/electronMass
+# coeffx = [velocity, -length]
+# coeffy = [-.5*accel, velocity, -apart]
+# y = (numpy.roots(coeffy))
+# x = (numpy.roots(coeffx))
+# print(x > y)
+# print(y)
+# print(x)
+# print(y[0])
+# print(y*velocity)
+# print(velocity*x - .5*accel*(x**2))
 
 # y= 2.208*10**-8
 # x = 1.3437*10**-8
