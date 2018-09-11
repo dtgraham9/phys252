@@ -6,6 +6,7 @@ cm = 10**-2
 micro = 10**-6
 electronCharge = 1.602*10**-19
 electronMass = 9.11*10**-31
+epi = 8.85 * 10**-12
 
 # problem 1
 # e = 148 / (.87 * math.cos(math.radians(75)))
@@ -20,10 +21,11 @@ electronMass = 9.11*10**-31
 # print(x*m)
 
 #problem 3
-m = .3/100
-a = m**2
-q = -6.1*micro
-r = (m/2)**2
-e = k*q/r
-f=e*a
-print(f)
+# m = .3/100
+# a = m**2
+#q = -3.6*micro
+#f = q/epi
+#f = f * 1/6
+#print(f)
+
+# problem 4
