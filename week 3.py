@@ -13,7 +13,7 @@ epi = 8.85 * 10**-12
 # e = 148 / (.87 * math.cos(math.radians(75)))
 # print(e)
 
-# problem 2
+# prblem 2
 # z = 1.2 -1.2
 # y = 5.1 -5.1
 # x = -3.5
@@ -60,13 +60,11 @@ epi = 8.85 * 10**-12
 #print(d)
 
 #problem 8
-a = 4.55/1000
+a = 1.9/1000
 r = 1.90/1000
 p = 5.1*10**-15
-v = (4/3)*math.pi*a**3
-Q = v*p
-E = Q/(4*math.pi*a**3)*r
-print(E)
+flux = p/(epi) * a
+print(flux)
 
 
 #problem 9
