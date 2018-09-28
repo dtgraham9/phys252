@@ -29,4 +29,30 @@ print("problem 3 part2: "+ str(q))
 a = 26/1000
 b = 28/1000
 C = 4*math.pi*epi*(a*b)/(b-a)
-print("Problem 4 part1: " str(C))
+print("Problem 4 part1: " + str(C))
+d = b-a
+a = C *d/epi
+print("Problem 4 part2: "+ str(a))
+
+#problem 5
+c = 3*21 * micro
+v = 3600
+q = c*v
+print("Problem 5: " + str(q))
+
+#problem 6
+c3 = 2.1 * micro
+c2 = 4.2 * micro
+c1 = 12 * micro
+ce = 1/((1/c2)+(1/c1))
+ct = ce+c3
+print("Problem 6: " + str(ct))
+
+#problem 7
+c1 = 2.4 * micro
+c2 = 6.7 *micro
+ct = c1+c2
+v = 290
+q = v * ct
+e = q*v
+print("Problem 7: "+ str(e))
