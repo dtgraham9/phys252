@@ -9,6 +9,12 @@ electronCharge = 1.602*10**-19
 electronMass = 9.11*10**-31
 epi = 8.85 * 10**-12
 
+#problem 1
+r = 5
+q1 = 4 * micro
+q2 = q1 * 5
+print("Problem 1 part 1: " + str(q2))
+
 #problem 2
 f = 30*micro
 v =90
@@ -53,6 +59,18 @@ c1 = 2.4 * micro
 c2 = 6.7 *micro
 ct = c1+c2
 v = 290
-q = v * ct
+q1 = v * c1
+q2 = v * c2
+q = q1+q2
 e = q*v
-print("Problem 7: "+ str(e))
+u=.5*ct*v**2
+print("Problem 7: "+ str(u))
+
+#problem 8
+c = 238*10**-12
+a = .035
+d = epi*a/c
+print("problem 8 part 1: " + str(d))
+k = 4.6
+c = c * k
+print("problem 8 part 2: " + str(c))
